@@ -1,0 +1,94 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar-inverse {
+    background-color: #1d3557; /* your dark blue */
+    border-color: #1d3557;
+    background: linear-gradient(to right, #080808, #6610f2);
+}
+
+    .navbar-inverse .navbar-brand,
+    .navbar-inverse .nav > li > a {
+        color: #f1faee; /* light text */
+    }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    padding: 100px 0;
+    background: linear-gradient(to right, #1d3557, #6610f2);
+    color: white;
+    border-radius: 6px;
+}
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero .btn {
+        margin-top: 20px;
+    }
+header-center{display:flex;justify-content:center;}
+.header-right {
+    display: flex;
+    justify-content: right;
+}
+
+.modules {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.module {
+    background: #eeeeee;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+    .module:hover {
+        transform: translateY(-5px);
+    }
+
+    .module h3 {
+        font-size: 2.3rem;
+        margin-bottom: 0.8rem;
+        text-align: center;
+    }
+
+    .module p {
+        font-size: 1.95rem;
+        color: #555;
+        padding: 0 10px;
+    }
+.jumbotron {
+    margin-top: 30px;
+}
+.jumbotron h1{font-size:36px}
